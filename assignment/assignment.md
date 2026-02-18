@@ -85,3 +85,150 @@ The Percentage Tracker: A blog post allows 1000 words. Ask the user how many the
 The Name Reverser: (Conceptual) Ask for a name. Display the length and then the name with a "Start" and "End" tag using concatenation.
 
 The Variable Swap Challenge: Ask for Value A and Value B. Swap them using a temporary variable and show the user the "Swapped" result.
+
+
+New Assignment
+
+Level 1: Remember (Recall & Identification)
+Which keyword allows both redeclaration and reassignment of variables?
+
+True or False: const variables can be reassigned but not redeclared.
+
+List the characters a JavaScript variable is allowed to start with.
+
+What is the syntax for Snake Case?
+
+Define Primitive Datatype based on your notes.
+
+Which data type represents the "intentional absence of value"?
+
+What symbol is used for the Assignment Operator?
+
+What does the .length property return?
+
+Name the non-primitive data type that uses key-value pairs.
+
+Which method would you use to check if a string ends with a specific sequence of characters?
+
+What is the symbol for the Strict Equality operator?
+
+List the three symbols for Logical Operators (AND, OR, NOT).
+
+What property or object would you use to find the square root of a number?
+
+Level 2: Understand (Explanation & Comparison)
+Explain why let camelCase and let camelcase are considered different variables.
+
+What is the difference between an Array and an Object regarding how they store data?
+
+Describe the process of Type Coercion when adding a string to a number.
+
+What is the difference between Math.floor() and Math.ceil()?
+
+Compare == and ===. Which one is safer to use and why?
+
+Explain how Template Literals handle variables differently than the + operator.
+
+Why does typeof null return "object" in JavaScript?
+
+What happens to a variable that is declared but not assigned a value? (What is its type?)
+
+Explain the purpose of the .split() method. What does it return?
+
+Describe the difference between && (AND) and || (OR) in a logical statement.
+
+Level 3: Apply (Execution & Implementation)
+Write a line of code to declare a constant named PI with the value 3.14.
+
+Use Template Literals to log: "I am [age] years old" using a variable age.
+
+You have let price = "100". Convert it to a Number and add 20 to it.
+
+Given let text = "JavaScript", use .slice() to extract the word "Java".
+
+Create an Object for a car with properties: brand, model, and year.
+
+Use the + operator to join str1 = "Hello" and str2 = "World" with a space.
+
+Use Math.random() and Math.floor() to create a whole number between 0 and 5.
+
+Use .split() to turn the string "Red,Blue,Green" into an Array.
+
+Write a comparison to check if x is greater than 10 and less than 20.
+
+Level 4: Analyze (Breaking Down & Reasoning)
+Analyze this: let result = "5" + 2 + 3;. What is the value of result? Explain.
+
+Analyze this: let result = 2 + 3 + "5";. What is the value of result? Explain.
+
+If let s = "Programming", what is the result of s.slice(0, 3) vs s.slice(3)?
+
+Break down this logical expression: (true && false) || !false. Is the final result true or false?
+
+Why would let 1stPlace = "Toyin"; throw an error?
+
+Given let colors = ["red", "green", "blue"], how do you access the string "red" specifically?
+
+If you use .split("") (empty quotes) on the word "Hi", what is the resulting Array?
+
+Level 5: Evaluate (Judging & Justifying)
+Evaluate which is better for a fixed username: let or const? Justify your answer.
+
+A developer uses .slice(0, 5) to get the first name from "Toyin Ogunlari". Evaluate if this code will work if the name changes to "Oluwatoyin".
+
+Critique this code: let total = "10" * 2;. Does it work? Is it good practice?
+
+Decide whether .split() or .slice() is more efficient for extracting the domain from "info@google.com".
+
+Compare Math.round(4.5) and Math.floor(4.5). Why do they give different results?
+
+
+JavaScript Logic & Methods: VS Code Challenge Set
+1. The Character Processor
+Create a variable let userQuote = "Knowledge is power". Use a console.log() to display the total number of characters in that string.
+
+2. The Word Counter
+Create a variable let sentence = "Learning JavaScript is an exciting journey". Use the .split() method to calculate how many words are in the sentence and log the count.
+
+3. The Secure Gate
+Declare two variables: let age = 20 and let hasTicket = true. Write a logic check using the && operator that logs "Welcome" if they are 18 or older and have a ticket, otherwise logs "Access Denied".
+
+4. The Dynamic ID
+Use Math.random() to generate a decimal between 0 and 100. Use a Math method to turn it into a whole number, convert it to a String, and join it with the prefix "ID_" (e.g., "ID_42").
+
+5. The Email Validator
+Create a variable let email = "student@school.com". Write a script that checks two things:
+
+Does it include the "@" symbol?
+
+Does it end with ".com"?
+Log a single boolean (true or false) that confirms if both conditions are met.
+
+6. The Price Calculator
+Create a variable let rawPrice = "199.99".
+
+Convert rawPrice from a String to a Number.
+
+Add a 7.5% tax to the value.
+
+Use a Math method to display the final price rounded to the nearest whole number.
+
+7. The Substring Specialist
+Given the string let data = "frontend-developer".
+
+Use .split() to remove the hyphen and store the result in an array.
+
+Use .slice() on the original string to extract only the word "frontend".
+
+8. The Comparison Analysis
+Create two variables: let valA = 50 (Number) and let valB = "50" (String).
+
+Log the result of a Loose Equality (==) comparison.
+
+Log the result of a Strict Equality (===) comparison.
+
+9. The Name Trimmer
+Create a variable let fullName = "Oluwatoyin Ogunlari". Write a script that checks if the name is longer than 10 characters. If it is, use .slice() to grab the first 10 characters and concatenate "..." to the end.
+
+10. The Climate Alert
+Create a variable let currentTemp = 45. Use the Logical OR (||) operator to log "Extreme Weather" if the temperature is below 0 OR above 40. Otherwise, log "Normal Weather"
